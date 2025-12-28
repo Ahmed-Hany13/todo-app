@@ -1,0 +1,24 @@
+﻿ACID Properties
+
+
+What is ACID?
+        ACID stands for Atomicity, Consistency, Isolation, and Durability.
+
+
+1- Atomicity
+        Atomicity means a transaction is all-or-nothing either all its operations succeed, or none are applied. If any part fails, the entire transaction is rolled back to keep the database consistent.
+
+
+2-Consistency
+        Consistency in transactions means that the database must remain in a valid state before and after a transaction.
+
+
+3-isolation
+        Isolation ensures that transactions run independently without affecting each other. Changes made by one transaction are not visible to others until they are committed.
+
+
+4-Durability
+        Durability ensures that once a transaction is committed, its changes are permanently saved, even if the system fails. The data is stored in non-volatile memory, so the database can recover to its last committed state without losing data.
+
+
+The ACID properties, in totality, provide a mechanism to ensure the correctness and consistency of a database in a way such that each transaction is a group of operations that acts as a single unit, produces consistent results, acts in isolation from other operations, and updates that it makes are durably stored.
